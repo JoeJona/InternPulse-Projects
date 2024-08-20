@@ -1,0 +1,4 @@
+# List of all required dependencies
+
+Django==5.1
+djangorestframework==3.15.2
