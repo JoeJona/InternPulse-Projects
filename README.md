@@ -1,7 +1,7 @@
 # Steps to run the code
 
   install python if not installed.\
-  clone the repo.\
+  clone the repo.
   ### in terminal
   run this -> pip install -r ./requirements.txt \
   run this -> cd user_mgt \
