@@ -5,13 +5,6 @@ from .models import User
 from .parse import UserJsonParse
 
 
-@api_view(['GET'])
-def get_all_user(request):
-    users = User.objects.all()
-    serializer = UserJsonParse(users, many=True)
-    return Response(serializer.data)
-
-
 @api_view(['POST'])
 def create_user(request):
     getuser = User.objects.filter(name=request.data['name'])
